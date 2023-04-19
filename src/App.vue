@@ -5,13 +5,13 @@
         Home
       </router-link>
       <div class="flex items-center gap-1">
-        <router-link to="/" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
+        <router-link :to="{name: 'byName'}" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
           Search meals
         </router-link>
-        <router-link to="/" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
+        <router-link :to="{name: 'byLetter'}" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
           Meals by letter
         </router-link>
-        <router-link to="/" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
+        <router-link :to="{name: 'byIngredient'}" class="inline-flex items-center px-2 h-full hover:bg-purple-200">
           Meals by ingredients
         </router-link>
       </div>
