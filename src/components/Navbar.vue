@@ -9,22 +9,22 @@
     <div class="flex items-center gap-1">
       <router-link
         :to="{ name: 'byName' }"
-        class="inline-flex items-center px-2 h-full hover:bg-purple-200"
+        class="inline-flex items-center px-2 h-full hover:bg-orange-500"
       >
         Search meals
       </router-link>
       <router-link
         :to="{ name: 'byLetter' }"
-        class="inline-flex items-center px-2 h-full hover:bg-purple-200"
+        class="inline-flex items-center px-2 h-full hover:bg-orange-500"
       >
         Meals by letter
       </router-link>
-      <router-link
-        :to="{ name: 'byIngredient' }"
+      <!-- <router-link
+        :to="{ name: 'ingredients' }"
         class="inline-flex items-center px-2 h-full hover:bg-purple-200"
       >
         Meals by ingredients
-      </router-link>
+      </router-link> -->
     </div>
   </header>
 </template>
